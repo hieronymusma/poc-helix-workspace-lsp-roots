@@ -1,0 +1,12 @@
+[workspace]
+members = [
+  "crate1"
+]
+exclude = ["crate2"]
+default-members = ["crate1"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
